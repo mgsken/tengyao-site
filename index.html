@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="上海腾耀友艺广告传媒发展有限责任公司 —— 创意广告公司，专注广告影视拍摄，为企业提供 TVC、企业宣传片、产品广告与短视频拍摄服务。" />
+    <title>上海腾耀友艺广告传媒 · 创意广告拍摄</title>
+    <link rel="icon" href="assets/img/logo-v-white.png" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- 光标跟随微光 -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- ======== 顶部进度条 ======== -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ======== 导航 ======== -->
+    <header class="nav" id="mainNav">
+      <div class="container nav-inner">
+        <a class="nav-brand" href="#home">
+          <img src="assets/img/logo-h-white-nav.png" alt="上海腾耀友艺广告传媒" />
+        </a>
+        <nav class="nav-links" id="navLinks">
+          <a href="#home" class="active">首页</a>
+          <a href="#works">广告作品</a>
+          <a href="#about">关于我们</a>
+          <a href="#services">服务范围</a>
+          <a href="#contact">联系我们</a>
+          <a href="#contact" class="nav-cta">开启合作</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单"><span></span><span></span><span></span></button>
+      </div>
+    </header>
+
+    <!-- ======== Hero ======== -->
+    <section class="hero main-hero" id="home">
+      <div class="hero-bg">
+        <div class="hero-grid"></div>
+        <div class="hero-orb"></div>
+        <div class="hero-placeholder" style="width:100%;height:100%;"></div>
+      </div>
+      <div class="container">
+        <div class="hero-inner">
+          <span class="hero-kicker">上海腾耀友艺广告传媒 · EST. 创意影视制作</span>
+          <h1 class="hero-title">
+            <span class="line"><span class="t-char">以镜头</span></span>
+            <span class="line"><span class="t-char hl-wrap">讲好每一个<span class="hl">品牌故事</span></span></span>
+          </h1>
+          <p class="lead">专注广告影视拍摄。以创意为核、影像为媒，为品牌打造直击人心的广告作品。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#works">观看作品 <span class="arr">→</span></a>
+            <a class="btn btn-ghost" href="#contact">联系我们</a>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat" data-num="120" data-suffix="+"><b>0</b><span>部广告作品</span></div>
+          <div class="stat" data-num="60" data-suffix="+"><b>0</b><span>合作品牌</span></div>
+          <div class="stat" data-num="8" data-suffix="年"><b>0</b><span>行业深耕经验</span></div>
+          <div class="stat stat-text"><b>全案</b><span>创意 · 棚拍 · 实景 · 后期</span></div>
+        </div>
+      </div>
+      <div class="hero-scroll"><span>SCROLL</span><i></i></div>
+    </section>
+
+    <!-- ======== 精选作品（作品优先） ======== -->
+    <section class="section feature" id="feature">
+      <div class="container">
+        <div class="section-head row">
+          <div>
+            <span class="eyebrow">Featured Works</span>
+            <h2 class="section-title">精选作品</h2>
+          </div>
+          <a class="more-link" href="#works">查看全部作品 <span class="arr">→</span></a>
+        </div>
+        <div class="feature-grid" id="featureGrid"><!-- JS 渲染精选作品 --></div>
+      </div>
+    </section>
+
+    <!-- ======== 业务概览 ======== -->
+    <section class="section" id="overview">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What We Do</span>
+          <h2 class="section-title">我们擅长拍摄<span class="hl">广告</span></h2>
+          <p class="section-sub">从创意策划到成片交付，一站式影视广告制作。</p>
+        </div>
+        <div class="cards">
+          <div class="card reveal">
+            <div class="card-num">01</div>
+            <div class="icon">◆</div>
+            <h3>TVC 电视广告</h3>
+            <p>面向大众传播的高品质商业电视广告，短而有力，让品牌在几秒内被记住。</p>
+            <a class="card-link" href="#works">探索作品 <span class="arr">→</span></a>
+          </div>
+          <div class="card reveal d1">
+            <div class="card-num">02</div>
+            <div class="icon">✚</div>
+            <h3>企业宣传片</h3>
+            <p>为企业量身打造形象宣传片，呈现企业实力、文化与愿景。</p>
+            <a class="card-link" href="#works">探索作品 <span class="arr">→</span></a>
+          </div>
+          <div class="card reveal d2">
+            <div class="card-num">03</div>
+            <div class="icon">●</div>
+            <h3>产品 / 电商广告</h3>
+            <p>产品卖点可视化，帮电商与零售品牌拍出能带货的转化广告。</p>
+            <a class="card-link" href="#works">探索作品 <span class="arr">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== 广告作品集 ======== -->
+    <section class="section section-alt" id="works">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Portfolio</span>
+          <h2 class="section-title">广告作品集</h2>
+          <p class="section-sub">我们拍摄的广告作品。点击封面即可播放。</p>
+        </div>
+        <div class="work-filter" id="workFilter">
+          <button class="filter-btn active" data-filter="all">全部</button>
+          <button class="filter-btn" data-filter="tvc">TVC</button>
+          <button class="filter-btn" data-filter="corporate">企业宣传片</button>
+          <button class="filter-btn" data-filter="product">产品广告</button>
+          <button class="filter-btn" data-filter="short">短视频</button>
+        </div>
+        <div class="work-grid" id="workGrid">
+          <!-- 作品将由此处动态渲染 -->
+        </div>
+        <p style="text-align:center;color:var(--text-faint);margin-top:40px;" id="workEmpty">作品视频上传后即在此展示，敬请期待。</p>
+      </div>
+    </section>
+
+    <!-- ======== 关于我们 ======== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual" id="aboutVisual">
+            <div class="av-figure">◆</div>
+            <div class="av-label">以光影 · 记录 · 品牌之美</div>
+          </div>
+          <div class="about-text">
+            <span class="eyebrow">About Us</span>
+            <h2 class="section-title" style="margin:0 0 24px;">关于<em>腾耀友艺</em></h2>
+            <p>上海腾耀友艺广告传媒发展有限责任公司，是一家以广告影视拍摄为核心的创意广告公司。我们相信好的广告不只是展示产品，更是传递情感与价值。</p>
+            <p>从前期创意到现场拍摄，再到后期精剪调色，我们提供一体化的影视广告制作服务，帮助各行业的品牌把想法变成触动人心的影像。</p>
+            <div class="about-points">
+              <div class="about-point"><span class="chk">✓</span>专业的拍摄团队</div>
+              <div class="about-point"><span class="chk">✓</span>创意与执行并重</div>
+              <div class="about-point"><span class="chk">✓</span>全流程制作保障</div>
+              <div class="about-point"><span class="chk">✓</span>以结果为导向</div>
+            </div>
+            <div class="about-cta">
+              <a class="btn btn-ghost" href="#contact">和我们聊聊 <span class="arr">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== 服务范围 ======== -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Services</span>
+          <h2 class="section-title">服务范围</h2>
+          <p class="section-sub">覆盖多类型广告拍摄，满足品牌不同阶段的传播需求。</p>
+        </div>
+        <div class="service-row">
+          <div class="service reveal">
+            <div class="num">01</div>
+            <div><h3>TVC 电视广告</h3><p>为大众传播打造的精炼商业广告，短时长高记忆点。</p></div>
+            <span class="tag">传播</span>
+          </div>
+          <div class="service reveal d1">
+            <div class="num">02</div>
+            <div><h3>企业宣传片</h3><p>全方位呈现企业形象、品牌理念与综合实力。</p></div>
+            <span class="tag">形象</span>
+          </div>
+          <div class="service reveal d2">
+            <div class="num">03</div>
+            <div><h3>产品 / 电商广告</h3><p>可视化呈现产品卖点，提升转化与带货效果。</p></div>
+            <span class="tag">转化</span>
+          </div>
+          <div class="service reveal d3">
+            <div class="num">04</div>
+            <div><h3>短视频 / 信息流</h3><p>适配短视频平台的内容拍摄与制作，快速触达用户。</p></div>
+            <span class="tag">增长</span>
+          </div>
+          <div class="service reveal d4">
+            <div class="num">05</div>
+            <div><h3>纪录片 · 品牌微电影</h3><p>更长叙事，深入讲述品牌背后的故事与温度。</p></div>
+            <span class="tag">深度</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== 联系我们 ======== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-warp">
+          <div class="section-head">
+            <span class="eyebrow">Contact</span>
+            <h2 class="section-title">让我们聊聊<br/>你的<span class="hl">品牌</span></h2>
+            <p class="section-sub">有广告拍摄需求？留下信息，我们尽快联系你。</p>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3>联系方式</h3>
+              <a class="contact-item" href="tel:15961753018">
+                <div class="ci">☏</div>
+                <div><b>电话</b><span>159 6175 3018</span></div>
+              </a>
+              <a class="contact-item" href="mailto:qixicaojiang@gmail.com">
+                <div class="ci">✉</div>
+                <div><b>邮箱</b><span>qixicaojiang@gmail.com</span></div>
+              </a>
+              <div class="contact-item">
+                <div class="ci">⌖</div>
+                <div><b>地址</b><span>上海市宝山区长逸路188号1幢10层</span></div>
+              </div>
+              <div class="contact-item">
+                <div class="ci">✆</div>
+                <div><b>微信</b><span>159 6175 3018</span></div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <h3>咨询合作</h3>
+              <form id="contactForm" onsubmit="return false;">
+                <div class="form-field"><label>您的称呼</label><input type="text" id="cfName" name="称呼" placeholder="怎么称呼您" required /></div>
+                <div class="form-field"><label>联系方式</label><input type="text" id="cfContact" name="联系方式" placeholder="手机 / 微信 / 邮箱" required /></div>
+                <div class="form-field"><label>需求类型</label>
+                  <select id="cfType" name="需求类型"><option>TVC 电视广告</option><option>企业宣传片</option><option>产品 / 电商广告</option><option>短视频 / 信息流</option><option>其他</option></select>
+                </div>
+                <div class="form-field"><label>需求描述</label><textarea id="cfMessage" name="需求描述" placeholder="简单介绍一下您的产品 / 项目 / 需求"></textarea></div>
+                <button class="btn btn-primary" style="width:100%;justify-content:center;" id="cfSubmit">提交合作意向 <span class="arr">→</span></button>
+              </form>
+              <p style="color:var(--text-faint);font-size:13px;margin-top:14px;" id="formHint"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== 页脚 ======== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="assets/img/logo-h-white.png" alt="上海腾耀友艺广告传媒" />
+            <p>以创意为核，以影像为媒。上海腾耀友艺广告传媒发展有限责任公司。</p>
+          </div>
+          <div class="footer-cols">
+            <div><h4>导航</h4><a href="#home">首页</a><a href="#works">广告作品</a><a href="#about">关于我们</a><a href="#services">服务范围</a><a href="#contact">联系我们</a></div>
+            <div><h4>服务</h4><a href="#services">TVC 电视广告</a><a href="#services">企业宣传片</a><a href="#services">产品广告</a><a href="#services">短视频</a></div>
+            <div><h4>联系</h4><a href="tel:15961753018">电话：159 6175 3018</a><a href="mailto:qixicaojiang@gmail.com">邮箱：qixicaojiang@gmail.com</a><a href="#contact">地址：上海市宝山区长逸路188号1幢10层</a></div>
+          </div>
+        </div>
+        <div class="footer-bottom">© <span id="year"></span> 上海腾耀友艺广告传媒发展有限责任公司 · 保留所有权利</div>
+      </div>
+    </footer>
+
+    <!-- 作品播放弹窗 -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose">✕</button>
+      <div class="lightbox-inner">
+        <div class="lightbox-frame" id="lightboxFrame"></div>
+        <p class="lightbox-title" id="lightboxTitle"></p>
+      </div>
+    </div>
+
+    <script>
+      // 年度
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // 移动端导航
+      const navToggle = document.getElementById('navToggle');
+      const navLinks = document.getElementById('navLinks');
+      navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+      navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+      // 导航滚动背景
+      const mainNav = document.getElementById('mainNav');
+      window.addEventListener('scroll', () => {
+        mainNav.classList.toggle('scrolled', window.scrollY > 40);
+      });
+
+      // 滚动进度条
+      const sp = document.getElementById('scrollProgress');
+      window.addEventListener('scroll', () => {
+        const h = document.documentElement.scrollHeight - window.innerHeight;
+        const p = h > 0 ? (window.scrollY / h) * 100 : 0;
+        sp.style.width = p + '%';
+      });
+
+      // 滚动高亮导航
+      const sections = ['home','works','about','services','contact'];
+      const navAnchors = document.querySelectorAll('.nav-links a');
+      window.addEventListener('scroll', () => {
+        let cur = 'home';
+        sections.forEach(id => {
+          const el = document.getElementById(id);
+          if (el && window.scrollY >= el.offsetTop - 160) cur = id;
+        });
+        navAnchors.forEach(a => {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + cur);
+        });
+      });
+
+      // 光标跟随微光（仅桌面指针设备）
+      const glow = document.getElementById('cursorGlow');
+      if (window.matchMedia('(pointer:fine)').matches) {
+        let gx = innerWidth/2, gy = innerHeight/3, tx = gx, ty = gy;
+        document.addEventListener('mousemove', e => { tx = e.clientX; ty = e.clientY; });
+        (function anim(){
+          gx += (tx - gx) * 0.08;
+          gy += (ty - gy) * 0.08;
+          glow.style.transform = `translate(${gx}px, ${gy}px)`;
+          requestAnimationFrame(anim);
+        })();
+      } else {
+        glow.style.display = 'none';
+      }
+
+      // ---------- 广告作品数据 ----------
+      var works = [
+        { title: "上海体校宣传片", brand: "上海市体育运动学校", type: "corporate", year: "2024", cover: "assets/img/school-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133572838554&bvid=BV1iv8z62Ewf&cid=41133015099&p=1" },
+        { title: "雅诗兰黛产品广告", brand: "雅诗兰黛", type: "product", year: "2025", cover: "assets/img/estee-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133371513756&bvid=BV1wq8i6UEj6&cid=41131641795&p=1" },
+        { title: "超级舞蹈生·舞蹈美育成果特赏", brand: "超级舞蹈生", type: "corporate", year: "2025", cover: "assets/img/dance-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117126945906455&bvid=BV11kbf6SEY1&cid=41093893580&p=1" },
+        { title: "无锡市税务局六一MV", brand: "无锡市税务局", type: "corporate", year: "2025", cover: "assets/img/wuxi-tax-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117126945839027&bvid=BV1xkbf6SEzs&cid=41094023422&p=1" },
+        { title: "Jo Malone 香水广告", brand: "Jo Malone", type: "product", year: "2025", cover: "assets/img/jomalone-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133388290843&bvid=BV1Fk8i6LEum&cid=41131707387&p=1" },
+        { title: "YSL 香水广告宣传片", brand: "YSL 圣罗兰", type: "product", year: "2025", cover: "assets/img/ysl-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133388288416&bvid=BV1Fk8i6LEiN&cid=41131773045&p=1" },
+        { title: "UGG 广告宣传片", brand: "UGG", type: "product", year: "2025", cover: "assets/img/ugg-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133522573548&bvid=BV1wH8z64E6f&cid=41132427339&p=1" },
+        { title: "妥甸酱油央视广告", brand: "妥甸酱油", type: "tvc", year: "2025", cover: "assets/img/tuodian-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133405069277&bvid=BV1F68i62Ehv&cid=41131903278&p=1" },
+        { title: "无锡一汽解放工厂宣传片", brand: "一汽解放", type: "corporate", year: "2025", cover: "assets/img/faw-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133405066267&bvid=BV1F68i62EoQ&cid=41131837178&p=1" },
+        { title: "苏州园区宣传片", brand: "苏州工业园区", type: "corporate", year: "2025", cover: "assets/img/suzhou-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133405066640&bvid=BV1c68i62EFL&cid=41131900982&p=1" },
+        { title: "烁尔产品广告", brand: "烁尔", type: "product", year: "2025", cover: "assets/img/shuoer-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133421844053&bvid=BV1rs8z6WE5C&cid=41131968093&p=1" },
+        { title: "无锡高考宣传片", brand: "无锡市教育局", type: "corporate", year: "2025", cover: "assets/img/wuxi-gaokao-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133421842876&bvid=BV1rs8z6WEt7&cid=41131970460&p=1" },
+        { title: "上海金融检察院宣传片", brand: "上海金融检察院", type: "corporate", year: "2025", cover: "assets/img/jiancha-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133438619981&bvid=BV1kp8z6RE31&cid=41132034375&p=1" },
+        { title: "德国威能工厂宣传片", brand: "威能", type: "corporate", year: "2025", cover: "assets/img/weilang-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133438686656&bvid=BV1wp8z6dEJR&cid=41132100610&p=1" },
+        { title: "宪法的意义", brand: "无锡市新吴区税务局", type: "tvc", year: "2025", cover: "assets/img/xianfa-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133505729554&bvid=BV1yj8z6fEk3&cid=41132360931&p=1" },
+        { title: "烁尔产品宣传短视频", brand: "烁尔", type: "short", year: "2025", cover: "assets/img/shuoer-short-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133539352454&bvid=BV1AJ8z6ZEJX&cid=41132754786&p=1" },
+        { title: "烁尔产品宣传短视频2", brand: "烁尔", type: "short", year: "2025", cover: "assets/img/shuoer-short2-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133539349730&bvid=BV1AJ8z6ZEkJ&cid=41132755466&p=1" },
+        { title: "烁尔产品宣传片", brand: "烁尔", type: "short", year: "2025", cover: "assets/img/shuoer-xc-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133556061516&bvid=BV1vq8z6LExV&cid=41132820279&p=1" },
+        { title: "烁尔产品宣传短片", brand: "烁尔", type: "short", year: "2025", cover: "assets/img/shuoer-dp-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133556064180&bvid=BV1eq8z6LEZA&cid=41132819363&p=1" },
+        { title: "烁尔产品速净宣传短片", brand: "烁尔", type: "short", year: "2025", cover: "assets/img/shuoer-sujing-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133572838661&bvid=BV1iv8z62EgK&cid=41132756734&p=1" },
+        { title: "上海市文明办垃圾分类宣传片", brand: "上海市文明办", type: "corporate", year: "2025", cover: "assets/img/lajifenlei-cover.jpg", video: "//player.bilibili.com/player.html?isOutside=true&aid=117133589683041&bvid=BV1968z6VEJq&cid=41133018691&p=1" }
+      ];
+
+      // 类型标签映射
+      const typeMap = { tvc: "TVC", corporate: "企业宣传片", product: "产品广告", short: "短视频" };
+
+      // 精选作品（取前4部，品牌知名/代表性的）
+      function renderFeature() {
+        const grid = document.getElementById('featureGrid');
+        const feats = [
+          { title: "雅诗兰黛产品广告", brand: "雅诗兰黛", idx: 1 },
+          { title: "Jo Malone 香水广告", brand: "Jo Malone", idx: 4 },
+          { title: "YSL 香水广告宣传片", brand: "YSL 圣罗兰", idx: 5 },
+          { title: "妥甸酱油央视广告", brand: "妥甸酱油", idx: 7 }
+        ];
+        const featsData = feats.map(f => ({ ...works[f.idx], ...f }));
+        grid.innerHTML = featsData.map((w, i) => `
+          <a class="feat-item ${i === 0 ? 'big' : ''} reveal" onclick="openWorkByTitle('${w.title}')">
+            <div class="feat-cover">
+              <img src="${w.cover}" alt="${w.title}" loading="lazy">
+              <div class="feat-overlay"><span>PLAY</span></div>
+            </div>
+            <div class="feat-meta">
+              <span class="feat-num">${String(i + 1).padStart(2, '0')}</span>
+              <div><h3>${w.title}</h3><span>${w.brand} · ${typeMap[w.type]}</span></div>
+            </div>
+          </a>`).join('');
+        initReveal();
+      }
+      function openWorkByTitle(title) {
+        const i = works.findIndex(w => w.title === title);
+        if (i >= 0) openWork(i);
+      }
+
+      function renderWorks(list) {
+        const grid = document.getElementById('workGrid');
+        const empty = document.getElementById('workEmpty');
+        if (!list.length) { grid.innerHTML = ''; empty.style.display = 'block'; return; }
+        empty.style.display = 'none';
+        grid.innerHTML = list.map((w, i) => `
+          <div class="work-item reveal d${(i % 5)}" data-type="${w.type}" onclick="openWork(${i})">
+            <div class="work-cover">
+              ${w.cover ? `<img src="${w.cover}" alt="${w.title}" loading="lazy">` : `<div class="placeholder">◆</div>`}
+              <span class="work-idx">${String(works.indexOf(w) + 1).padStart(2, '0')}</span>
+              <div class="play"><span class="pbtn">▶</span></div>
+            </div>
+            <div class="work-meta"><h4>${w.title}</h4><span>${w.brand || ''} · ${typeMap[w.type] || ''} · ${w.year || ''}</span></div>
+          </div>`).join('');
+        initReveal();
+      }
+      renderFeature();
+      renderWorks(works);
+
+      function openWork(i) {
+        const w = works[i];
+        if (!w.video) return;
+        document.getElementById('lightboxFrame').innerHTML =
+          `<iframe src="${w.video}" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" allow="autoplay; fullscreen"></iframe>`;
+        document.getElementById('lightboxTitle').textContent = w.title;
+        document.getElementById('lightbox').classList.add('open');
+      }
+      function closeLightbox() {
+        document.getElementById('lightbox').classList.remove('open');
+        document.getElementById('lightboxFrame').innerHTML = '';
+      }
+      document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+      document.getElementById('lightbox').addEventListener('click', e => {
+        if (e.target === document.getElementById('lightbox')) closeLightbox();
+      });
+
+      // 作品筛选
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const f = btn.dataset.filter;
+          const filtered = f === 'all' ? works : works.filter(w => w.type === f);
+          renderWorks(filtered);
+        });
+      });
+
+      // 表单提交 → Web3Forms 转发到你的邮箱与后台收件箱
+      document.getElementById('cfSubmit').addEventListener('click', async () => {
+        const name = document.getElementById('cfName').value.trim();
+        const contact = document.getElementById('cfContact').value.trim();
+        const type = document.getElementById('cfType').value;
+        const msg = document.getElementById('cfMessage').value.trim();
+        const hint = document.getElementById('formHint');
+        if (!name || !contact) { hint.textContent = '请填写称呼与联系方式。'; return; }
+        const btn = document.getElementById('cfSubmit');
+        btn.disabled = true;
+        hint.textContent = '正在提交…';
+        try {
+          const res = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify({
+              access_key: '6efd21de-6002-4387-8a51-5c5ff586890b',
+              称呼: name,
+              联系方式: contact,
+              需求类型: type,
+              需求描述: msg || '（无）'
+            })
+          });
+          const result = await res.json();
+          if (result.success) {
+            hint.textContent = '感谢您的咨询！我们会在 1-2 个工作日内与您联系。';
+            document.getElementById('contactForm').reset();
+          } else {
+            hint.textContent = '提交失败，请稍后再试或直接拨打 159 6175 3018。';
+          }
+        } catch (e) {
+          hint.textContent = '提交失败，请稍后再试或直接拨打 159 6175 3018。';
+        } finally {
+          btn.disabled = false;
+        }
+      });
+
+      // ---------- 滚动揭示动画 ----------
+      function initReveal() {
+        const els = document.querySelectorAll('.reveal:not(.in)');
+        if (!('IntersectionObserver' in window)) { els.forEach(el => el.classList.add('in')); return; }
+        const io = new IntersectionObserver(entries => {
+          entries.forEach(en => {
+            if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+          });
+        }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+        els.forEach(el => io.observe(el));
+      }
+      setTimeout(initReveal, 60);
+
+      // ---------- 统计数字递增 ----------
+      function animateStat(el) {
+        const target = parseInt(el.dataset.num, 10);
+        const suffix = el.dataset.suffix || '';
+        const dur = 1600, start = performance.now();
+        function tick(now) {
+          const p = Math.min((now - start) / dur, 1);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.querySelector('b').textContent = Math.round(target * eased) + suffix;
+          if (p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      }
+      const statIo = new IntersectionObserver(entries => {
+        entries.forEach(en => {
+          if (en.isIntersecting) { animateStat(en.target); statIo.unobserve(en.target); }
+        });
+      }, { threshold: 0.4 });
+      document.querySelectorAll('.stat[data-num]').forEach(el => statIo.observe(el));
+    </script>
+  </body>
+</html>
